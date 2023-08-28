@@ -253,17 +253,3 @@ const Contact = () => {
 
 export default Contact;
 
-{/* <div className="social-links">
-<a href="https://www.facebook.com/100094226190763" target="_blank" rel="noopener noreferrer" className="social-button">
-    <FontAwesomeIcon icon={faFacebookF} />
-    Facebook
-</a>
-<a href="https://www.yelp.com/biz/overall-quality-contracting-denver" target="_blank" rel="noopener noreferrer" className="social-button">
-    <FontAwesomeIcon icon={faYelp} />
-    Yelp
-</a>
-<a href="https://www.instagram.com/Overall_Quality_Contracting/?fbclid=IwAR3UFNiOFyjfTmANSpiVkNfZDNHm45XEVKbA-7AVUm5wJhI56MlibzYvGdU" target="_blank" rel="noopener noreferrer" className="social-button">
-    <FontAwesomeIcon icon={faTwitter} />
-    Twitter
-</a>
-</div> */}
