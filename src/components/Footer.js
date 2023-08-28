@@ -1,6 +1,10 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
+import Quality_Logo from '../images/Quality_Logo.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookF, faYelp, faInstagram } from '@fortawesome/free-brands-svg-icons';
+
 
 const Footer = () => {
     return (
@@ -12,14 +16,13 @@ const Footer = () => {
                     <div className="grid sm:grid-cols-12 gap-5 py-8 md:py-12 border-t border-gray-200 lg:ml-11">
 
                     {/* 1st block */}
-                    <div className="col-span-12 lg:col-span-4">
+                    <div className="col-span-12 lg:col-span-4 items-center justify-center ">
                         <div className="box-border border-b-4 border-blue-900 p-8 bg-gray-200 text-gray-600 text-center rounded-lg xl:w-80 mx-auto">
-                            <h3 className="font-bold text-4xl mb-4">MLD</h3>
+                        <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out max-h-10 w-auto md:max-h-16 lg:max-h-20" src={Quality_Logo} />
                             <div className='text-md font-medium text-gray-600'>
-                                <h5>Molad e Konsult</h5>
-                                <p>Ilo Awela,</p>
-                                <p>Ota,</p>
-                                <p>Ogun State.</p>
+                                <p>Denver, Colordao</p>
+                                <p>email@gmail.com</p>
+                                <p>999-999-9999</p>
                             </div>
                         </div>
                     </div>
@@ -45,16 +48,16 @@ const Footer = () => {
                         <h6 className="text-[#013289] text-xl font-bold mb-4">OUR SERVICES</h6>
                         <ul className="text-md">
                         <li className="mb-2">
-                            <Link to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Web Development</Link>
+                            <Link to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Fencing</Link>
                         </li>
                         <li className="mb-2">
-                            <Link to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Mobile App Development</Link>
+                            <Link to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Decks</Link>
                         </li>
                         <li className="mb-2">
-                            <Link to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Domain and Hosting</Link>
+                            <Link to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Interior Remodeling</Link>
                         </li>
                         <li className="mb-2">
-                            <Link to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">General IT Consultations</Link>
+                            <Link to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">And More!</Link>
                         </li>
                         </ul>
                     </div>
@@ -64,28 +67,43 @@ const Footer = () => {
                         <div className="text-xl mb-6">
                             Social Media Links.
                         </div>
+                        <div className="flex my-4 w-2/3 lg:w-1/2">
 
-                                <div className="text-md font-medium mb-6">
-                                    Follow us on social media.
-                                </div>
-                        <div className="mx-auto text-center mt-2">
-                                <ul className="flex justify-center mb-4 md:mb-0">
-                                    <li>
-                                        <Link to="#" className="flex justify-center items-center text-blue-900 hover:text-gray-500 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out" aria-label="Twitter">
-                                        <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M24 11.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H8c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z" />
-                                        </svg>
-                                        </Link>
-                                    </li>
-                                    <li className="ml-4">
-                                        <Link to="#" className="flex justify-center items-center text-blue-900 hover:text-gray-500 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out" aria-label="Facebook">
-                                        <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M14.023 24L14 17h-3v-3h3v-2c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V14H21l-1 3h-2.72v7h-3.257z" />
-                                        </svg>
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </div>
+<div className="social-links flex space-x-2">
+    <button className="rounded-full bg-white w-10 h-8 flex items-center justify-center">
+        <a 
+            href="https://www.facebook.com/100094226190763" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="flex items-center justify-center"
+        >
+            <FontAwesomeIcon icon={faFacebookF} className="text-blue-900" />
+        </a>
+    </button>
+
+    <button className="rounded-full bg-white w-10 h-8 flex items-center justify-center">
+        <a 
+            href="https://www.yelp.com/biz/overall-quality-contracting-denver" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="flex items-center justify-center"
+        >
+            <FontAwesomeIcon icon={faYelp} className="text-blue-900" />
+        </a>
+    </button>
+
+    <button className="rounded-full bg-white w-10 h-8 flex items-center justify-center">
+        <a 
+            href="https://www.instagram.com/Overall_Quality_Contracting/?fbclid=IwAR3UFNiOFyjfTmANSpiVkNfZDNHm45XEVKbA-7AVUm5wJhI56MlibzYvGdU" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="flex items-center justify-center"
+        >
+            <FontAwesomeIcon icon={faInstagram} className="text-blue-900" />
+        </a>
+    </button>
+</div>
+</div>
                     </div>          
 
                     </div>
@@ -98,8 +116,8 @@ const Footer = () => {
                         to="#"
                         className=" hover:text-gray-900"
                     >
-                        Molad e Konsult
-                    </HashLink>. All rights reserved.
+                        Overall Quality Construction
+                    </HashLink>. <br /> All rights reserved.
                     </div>
                 </div>
                 </div>

@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import NavLinks from '../Navbar/NavLinks';
+import Quality_Logo from '../../images/Quality_Logo.png';
+
 
 
 const NavBar = () => {
@@ -12,18 +14,18 @@ const NavBar = () => {
 
 
     useEffect(() => {
-      const scrollHandler = () => {
-        window.pageYOffset > 10 ? setTop(false) : setTop(true)
-      };
-      window.addEventListener('scroll', scrollHandler);
-      return () => window.removeEventListener('scroll', scrollHandler);
+        const scrollHandler = () => {
+            window.pageYOffset > 10 ? setTop(false) : setTop(true)
+        };
+        window.addEventListener('scroll', scrollHandler);
+        return () => window.removeEventListener('scroll', scrollHandler);
     }, [top]);
 
     return (
         <nav className={`fixed top-0 w-full z-30 transition duration-300 ease-in-out mb-16 ${!top && 'bg-white shadow-lg'}`}>
             <div className="flex flex-row justify-between items-center py-2">
                 <div className="flex flex-row justify-center md:px-12 md:mx-12 items-center text-center font-semibold">
-                    <Link to="/"><h1 className="font-extrabold text-4xl text-blue-900">mld</h1></Link>
+                    <Link to="/"><img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out max-h-10 w-auto md:max-h-16 lg:max-h-20" src={Quality_Logo} /></Link>
                     
                 </div>
                 <div className="group flex flex-col items-center">
