@@ -27,7 +27,7 @@ const Services = () => {
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={Quality_Deck} />
                                     <h2 className="font-semibold my-4 text-2xl text-center">Decks</h2>
                                     <p className="text-md font-medium">
-                                        We specialize in creating and optimizing high-quality, custom websites for businesses and organizations of all sizes. Building mobile-friendly and easy-to-use websites and applications for clients.
+                                        We specialize in creating high-quality, custom decks for your home. No matter the size of the project, we can build it! 
                                     </p>
                                 </div>
                             </div>
@@ -85,7 +85,7 @@ const Services = () => {
                             </div> */}
                             <h3 className="text-3xl  text-blue-900 font-bold"><span className='font-black'>Quality</span></h3>
                             <div>
-                                <p className='my-3 text-xl text-gray-600 font-semibold'>This would be a great spot to broadly address the questions about warrenty of your products</p>
+                                <p className='my-3 text-xl text-gray-600 font-semibold'>This would be a great spot to broadly address the questions about warranty of your products</p>
                             </div>
                         </div>
                     </div>
