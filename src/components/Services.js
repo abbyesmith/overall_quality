@@ -16,6 +16,7 @@ const Services = () => {
                             <div className='w-24 border-b-4 border-blue-900'></div>
                         </div>
                         <h2 className="mt-4 mx-12 text-center text-xl lg:text-2xl font-semibold text-blue-900">We are deeply committed to ensuring our customers receive the highest quailty of work.</h2>
+                        <p className = "font-bold bg-red-500 text-white">I plan on making each of these clickable with more information with images of previous projects in each category. </p>
                     </div>
 
                     <div className="px-12" data-aos="fade-down" data-aos-delay="600">

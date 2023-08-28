@@ -49,7 +49,7 @@ const Clients = () => {
                         <div className='w-24 border-b-4 border-blue-900'></div>
                     </div>
                     <h2 className="mt-4 mx-12 text-center text-xl lg:text-2xl font-semibold text-blue-900">Testimonials from our satisfied customers.</h2>
-                    <p>NOTE - I'd love to do a before/after here instead of just the final picture</p>
+                    <p className = "font-bold bg-red-500 text-white">NOTE - I'd love to do a before/after here instead of just the final picture. Alternativly, we could do several pictures from one project. On phones we'd just have one picture show at a time, on larger screens we could have 2-3 show up at a time.</p>
                 </div>
                 <div className="testimonials-container">
                     <div className="carousel">

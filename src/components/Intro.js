@@ -15,7 +15,8 @@ const Intro = () => {
                             
                             <h3 className="text-3xl  text-blue-900 font-bold">We help with your home dreams come true</h3>
                             <div>
-                                <p className='my-3 text-xl text-gray-600 font-semibold'>At Overall Quality Construction, founded by farm-raised brothers Brian and Cal Krenke, we began by crafting a neighbor's fence. Their reputation for top-notch work quickly grew, leading to a variety of projects from decks to full interior remodels. With the philosophy "You Dream it, we build it," they guarantee precision and quality. Today, they are committed not only to technical excellence but also clear communication and exceptional service. Trust in their legacy of excellence. Contact us for a free quote and realize your dream project!</p>
+                                <p className = "font-bold bg-red-500 text-white"> We need some sort of background story here. This is just a place holder that I quickly threw out there.</p>
+                                <p className='my-3 text-xl text-gray-600 font-semibold'>At Overall Quality Construction, founded by farm-raised brothers Brian and Cal Krenke, we began by crafting a neighbor's fence. As our reputation for top-notch work quickly grew, leading to a variety of projects from decks to full interior remodels. With the philosophy "You Dream it, we build it," we guarantee precision and quality. Today, we are committed not only to technical excellence but also clear communication and exceptional service. Trust in our legacy of excellence. Contact us for a free quote and realize your dream project!</p>
                             </div>
                             
                             <div>
