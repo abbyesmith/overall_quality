@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/overall_quality/static/css/main.f729502d.css",
+    "main.js": "/overall_quality/static/js/main.6e9cf10e.js",
+    "static/media/Quality_Hottub_2.jpeg": "/overall_quality/static/media/Quality_Hottub_2.402b4aa1289022a323bd.jpeg",
+    "static/media/Quality_Fence.jpeg": "/overall_quality/static/media/Quality_Fence.f70f65d0ceff8cc02ab8.jpeg",
+    "static/media/Quality_Ramp.jpeg": "/overall_quality/static/media/Quality_Ramp.5616a1b9b17599800fe5.jpeg",
+    "static/media/Quality_Deck.jpeg": "/overall_quality/static/media/Quality_Deck.2ff992094fc342434c3d.jpeg",
+    "static/media/Quality_Other.jpeg": "/overall_quality/static/media/Quality_Other.903b321f905a6679e3c6.jpeg",
+    "static/media/Quality_Sauna.jpeg": "/overall_quality/static/media/Quality_Sauna.41104fc0beead8d852b3.jpeg",
+    "static/media/Quality_Bathroom.jpeg": "/overall_quality/static/media/Quality_Bathroom.4637ba4bb0ce80e975db.jpeg",
+    "static/media/Quality_Kitchen.jpeg": "/overall_quality/static/media/Quality_Kitchen.0ea7c647b1a404cf7336.jpeg",
+    "static/media/Quality_Puppy.jpeg": "/overall_quality/static/media/Quality_Puppy.698379dc6b2c4d6d474e.jpeg",
+    "static/media/Quality_Logo.png": "/overall_quality/static/media/Quality_Logo.fa61489a8fb64d821688.png",
+    "static/media/footer.svg": "/overall_quality/static/media/footer.70b54bbe52a797ce69c1.svg",
+    "index.html": "/overall_quality/index.html",
+    "static/media/hero-bg.svg": "/overall_quality/static/media/hero-bg.c3b4448a16ff1a8da834.svg",
+    "main.f729502d.css.map": "/overall_quality/static/css/main.f729502d.css.map",
+    "main.6e9cf10e.js.map": "/overall_quality/static/js/main.6e9cf10e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f729502d.css",
+    "static/js/main.6e9cf10e.js"
+  ]
+}
